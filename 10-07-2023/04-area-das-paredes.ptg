@@ -1,0 +1,14 @@
+var
+    larguraParedeMaior, larguraParedeMenor, alturaDaParede, areaTotal, quantidadeDeTinta: real
+
+inicio
+    leia(larguraParedeMaior);
+    leia(larguraParedeMenor);
+    leia(alturaDaParede);
+    areaTotal <- ((larguraParedeMaior * alturaDaParede) * 2 
+                + (larguraParedeMenor * alturaDaParede) * 2
+                + (larguraParedeMaior * larguraParedeMenor))
+    escreva(areaTotal)
+    quantidadeDeTinta <- areaTotal / 12
+    escreva(quantidadeDeTinta)
+fim

@@ -1,0 +1,9 @@
+var
+    raio, altura, volume: real;
+
+inicio
+    leia(raio);
+    leia(altura);
+    volume <- 3.14 * raio² * altura;
+    escreva(volume)
+fim

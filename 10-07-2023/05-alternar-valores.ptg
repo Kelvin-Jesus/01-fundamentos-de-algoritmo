@@ -1,0 +1,12 @@
+var
+    primeiraVar, segundaVar, valorTemporario: inteiro
+
+inicio
+    leia(primeiraVar);
+    leia(segundaVar);
+    valorTemporario <- segundaVar;
+    segundaVar <- primeiraVar;
+    primeiraVar <- valorTemporario;
+    escreva(primeiraVar);
+    escreva(segundaVar);
+fim

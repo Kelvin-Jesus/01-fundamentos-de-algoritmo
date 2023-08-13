@@ -1,0 +1,9 @@
+var
+    tempoGasto, velocidadeMedia, quantidadeCombustivel: real;
+
+inicio
+    leia(tempoGasto);
+    leia(velocidadeMedia);
+    quantidadeCombustivel <- (tempoGasto * velocidadeMedia) / 12;
+    escreva(quantidadeCombustivel)
+fim

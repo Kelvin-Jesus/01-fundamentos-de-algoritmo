@@ -1,0 +1,9 @@
+var
+    base, altura, area: real;
+
+inicio
+    leia(base);
+    leia(altura);
+    area <- base * altura;
+    escreva(area)
+fim
