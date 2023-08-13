@@ -1,0 +1,22 @@
+var 
+    numero1, numero2: inteiro
+
+inicio
+    leia(numero1);
+    leia(numero2);
+    se numero1 > numero2 entao
+    inicio
+        escreva(numero1)
+    fim;
+    senao
+    inicio
+        se numero1 entao
+        inicio
+            escreva(numero2)
+        fim;
+        senao
+        inicio
+            escreva("iguais");
+        fim;
+    fim
+fim

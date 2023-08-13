@@ -1,0 +1,22 @@
+var
+    temperatura, temperaturaEmCelsius: real
+
+inicio
+    leia(temperatura);
+    temperaturaEmCelsius <- (temperatura - 32 ) * (5/9);
+    escreva(temperaturaEmCelsius);
+    se temperaturaEmCelsius < 17 entao
+    inicio
+        escreva("Frio");
+    fim;
+    senao
+        se temperaturaEmCelsius > 17 e > 25
+        inicio
+            escreva("Agradável");
+        fim;
+        senao
+        inicio
+            escreva("Frio")
+        fim;
+    fim;
+fim

@@ -1,0 +1,11 @@
+var
+    numero: inteiro
+
+inicio
+    leia(numero);
+    se numero < 0 entao
+    inicio
+        numero <- numero * (-1);
+    fim;
+    escreva(numero);
+fim
