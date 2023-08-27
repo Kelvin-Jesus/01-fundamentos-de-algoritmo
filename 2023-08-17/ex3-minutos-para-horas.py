@@ -25,7 +25,6 @@ def calcula_minutos_em_horas(minutos: int) -> IntervaloDeTempo:
         minutos_restantes = 0
 
     print(f"horas: {horas} | minutos {minutos_restantes}")
-    # horas_minutos = HorasMinutos()
     return IntervaloDeTempo(horas, minutos_restantes)
 
 def ler_tempo():
